@@ -24,7 +24,7 @@ namespace HiDef.QueueCtl
     
     public class Program
     {
-        public void Main(string[] args)
+        public static void Main(string[] args)
         {
             //  foreach (string arg in args)
             //  {
@@ -52,7 +52,7 @@ namespace HiDef.QueueCtl
             }
         }
         
-        private void enqueue(string[] args)
+        private static void enqueue(string[] args)
         {
             Console.WriteLine(args[0]);
             Console.WriteLine(args[1]);
@@ -73,7 +73,7 @@ namespace HiDef.QueueCtl
             Console.WriteLine("complete");
         }
         
-        private void dequeue(string[] args)
+        private static void dequeue(string[] args)
         {
             string inputConnectionString = args.Require(0, "Azure connection string from which to receive messages is mandatory.");
             string inputQueue = args.Require(1, "The queue name from which to receive messages is mandatory.");
