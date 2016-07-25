@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0-*",
+  "description": "HiDef.QueueCtl Console Application",
+  "tags": [""],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+      "WindowsAzure.Storage":"6.1.1-preview",
+        "System.Threading": "4.0.10-beta-23109",
+        "Microsoft.CSharp": "4.0.0-beta-23109",
+        "System.Linq": "4.0.0-beta-23109"
+  },
+
+  "commands": {
+    "run": "run"
+  },
+
+  "frameworks": {
+    "dnx451": {}
+  }
+}
