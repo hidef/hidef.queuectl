@@ -2,11 +2,10 @@
 
 ## Install
 
-``` donet restore ```
+```donet restore```
 
 ## Run
 
-    dotnet run hidef.queuectl enqueue <inputPath> <outputConnectionString> <outputQueue>
-    dotnet hidef.queuectl dequeue <inputConnectionString> <inputQueue> <outputPath>
+    dotnet run enqueue <inputPath> <outputConnectionString> <outputQueue>
+    dotnet run dequeue <inputConnectionString> <inputQueue> <outputPath>
 
-    
